@@ -216,6 +216,11 @@ This project demonstrates an end-to-end data engineering workflow including reli
 
 The solution prioritizes correctness, transparency, and real-world decision-making over assumptions, resulting in a clean and defensible data pipeline suitable for downstream analytics.
 
+---
+
+Validation queries are also provided separately in `validation.sql`.
+
+
 
 
 
