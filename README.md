@@ -202,9 +202,20 @@ GROUP BY order_status;
 
 ---
 
+## Issues Faced & Resolutions
+
+- Encountered duplicate order IDs in feedback data; resolved via staging and deduplication.
+- Assignment 2 schema differed from the spec; adapted models to actual available tables.
+- Missing product data was documented instead of fabricated.
+
+---
+
 ## Conclusion
 
 This project demonstrates an end-to-end data engineering workflow including reliable ingestion, realistic data issue handling, and analytics-ready modeling.  
 
 The solution prioritizes correctness, transparency, and real-world decision-making over assumptions, resulting in a clean and defensible data pipeline suitable for downstream analytics.
+
+
+
 
